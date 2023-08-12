@@ -7,3 +7,8 @@
 
 #include <stdint.h>
 #include <stdio.h>
+#include <stdlib.h>
+
+#define STACK_SIZE 1024 * 1024
+
+void* fmalloc(size_t size);
